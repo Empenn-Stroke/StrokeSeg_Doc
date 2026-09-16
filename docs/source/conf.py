@@ -2,12 +2,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'StrokeSeg'
-copyright = '2025, Empenn Research Team'
+project = 'StrokeSeg2'
+copyright = '2026, Empenn Research Team'
 author = 'Empenn Research Team'
 
-release = '0.1'
-version = '0.1.0'
+release = '2.0'
+version = '2.0.0'
 
 # -- General configuration ---------------------------------------------------
 
@@ -39,6 +39,9 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# 👈 THIS IS THE NEW LINE FOR DOXYGEN
+html_extra_path = ['doxygen_out'] 
+
 # -- Options for EPUB output -------------------------------------------------
 
 epub_show_urls = 'footnote'
@@ -53,4 +56,3 @@ html_favicon = "_static/favicon.ico"
 
 bibtex_bibfiles = ["references.bib"]
 bibtex_default_style = "plain"
-

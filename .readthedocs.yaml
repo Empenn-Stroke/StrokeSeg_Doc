@@ -4,6 +4,24 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.10"
+  apt_packages:
+    - doxygen
+  jobs:
+    pre_build:
+      # 1. Clone your public C++ repository
+      - git clone https://github.com/Empenn-Stroke/StrokeSeg2.git
+      
+      # 2. Pull the awesome-css submodule inside it
+      - cd StrokeSeg2 && git submodule update --init
+      
+      # 3. Run Doxygen on the C++ code
+      - cd StrokeSeg2/sources && doxygen Doxyfile
+      
+      # 4. Create the staging directory inside your Sphinx source folder
+      - mkdir -p docs/source/doxygen_out/api
+      
+      # 5. Copy the generated Doxygen HTML into the staging directory
+      - cp -r StrokeSeg2/sources/docs/html/* docs/source/doxygen_out/api/
 
 python:
   install:
