@@ -1,6 +1,7 @@
 # User Guide
 
->**⚠ This application is for research purpose only !**
+```{warning}
+This application is for research purposes only!
 
 ## Introduction
 
