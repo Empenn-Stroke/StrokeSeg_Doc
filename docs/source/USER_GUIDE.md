@@ -1,9 +1,5 @@
 # User Guide
 
-```{warning}
-This application is for research purposes only!
-```
-
 ## Introduction
 
 This application is designed to perform automated segmentation and detection of stroke lesions in brain MRI images. It provides both a graphical interface (GUI) and a command line interface (CLI) to facilitate user interaction, allowing you to process data, manage models, and review results efficiently.
@@ -21,7 +17,7 @@ This section explains how to use the graphical interface (GUI) of the applicatio
 The GUI can be launched either by double-clicking the executable or by running it from the command line without any arguments.
 
 When opening the application, a pop-up window appears on the main screen:
-```{attention}
+```{warning}
  This application is for research purpose only !
 ```
 
