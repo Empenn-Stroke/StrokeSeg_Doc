@@ -2,6 +2,7 @@
 
 ```{warning}
 This application is for research purposes only!
+```
 
 ## Introduction
 
