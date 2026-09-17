@@ -21,7 +21,9 @@ This section explains how to use the graphical interface (GUI) of the applicatio
 The GUI can be launched either by double-clicking the executable or by running it from the command line without any arguments.
 
 When opening the application, a pop-up window appears on the main screen:
-> This application is for research purpose only !
+```{attention}
+ This application is for research purpose only !
+```
 
 You cannot use the application until you close this message by clicking "OK" or the close button. If you don’t want to see the message again, you can check the “Do not show again” option. If later you want to see it at startup, there is a “Restore warning window” option in the Options menu.
 
