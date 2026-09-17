@@ -39,8 +39,13 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-# 👈 THIS IS THE NEW LINE FOR DOXYGEN
 html_extra_path = ['doxygen_out'] 
+
+# Correct options for sphinx_rtd_theme
+html_theme_options = {
+    'navigation_depth': 3,
+    'collapse_navigation': False,
+}
 
 # -- Options for EPUB output -------------------------------------------------
 
