@@ -23,7 +23,7 @@ API Documentation
 Repository
 ------------
    - `StrokeSeg2 source code <https://github.com/empenn-stroke/StrokeSeg2>`_
-   - `StrokeSeg2 installer (Win/macOS/Linux) <https://github.com/empenn-stroke/StrokeSeg2/releases>`
+   - `StrokeSeg2 installer (Windows, macOS, Linux) <https://github.com/empenn-stroke/StrokeSeg2/releases>`
 
 Model Checkpoints are available here : `Zenodo <https://zenodo.org/records/18360630>`_
 
