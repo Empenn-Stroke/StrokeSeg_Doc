@@ -1,4 +1,4 @@
-StrokeSeg2 Documentation
+StrokeSeg2
 ========================
 
 .. warning::
@@ -21,15 +21,20 @@ Software description at :cite:p:`mahe2026strokeseg2`.
 
 Model description at :cite:p:`dimatteo2026`.
 
-API Documentation
-=================
+Developments
+========================
 
-- `C++ API Documentation (Doxygen) <api/index.html>`_
-
+Building workflow
+------------
 .. image:: _static/diagram.png
    :alt: Diagram
    :width: 90%
    :align: center
+
+Documentation
+------------
+
+- `C++ API Documentation (Doxygen) <api/index.html>`_
 
 References
 ----------
