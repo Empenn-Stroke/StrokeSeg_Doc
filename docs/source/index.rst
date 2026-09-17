@@ -20,26 +20,17 @@ API Documentation
 
 - `C++ API Documentation (Doxygen) <api/index.html>`_
 
-Repositories
+Repository
 ------------
+   - `StrokeSeg2 source code <https://github.com/empenn-stroke/StrokeSeg2>`_
+   - `StrokeSeg2 installer (Win/macOS/Linux) <https://github.com/empenn-stroke/StrokeSeg2/releases>`
 
-Click on each circle intersection to reach the corresponding repository.
-Or simply access :  
-   - `StrokeSeg2 Application <https://github.com/empenn-stroke/StrokeSeg2>`_
+Model Checkpoints are available here : `Zenodo <https://zenodo.org/records/18360630>`_
 
-Model Checkpoints are available here :
-   - T1-w only: `Zenodo <https://zenodo.org/records/18360630>`_
-   - T1-w and FLAIR fine-tuned: Soon
-
-.. raw:: html
-
-   <div style="margin-bottom: 0;">
-     <iframe src="_static/venn.html"
-             width="600"
-             height="400"
-             style="border:none; display:block;">
-     </iframe>
-   </div>
+.. image:: _static/diagram.png
+   :alt: Diagram
+   :width: 90%
+   :align: center
 
 References
 ----------
