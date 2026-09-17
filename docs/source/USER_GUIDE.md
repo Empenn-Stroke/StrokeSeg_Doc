@@ -10,7 +10,9 @@ This application is designed to perform automated segmentation and detection of 
 
 ## Graphical Interface
 
+```{only} html
 ![GUI Demonstration](_static/video.webp)
+```
 
 This section explains how to use the graphical interface (GUI) of the application.
 
